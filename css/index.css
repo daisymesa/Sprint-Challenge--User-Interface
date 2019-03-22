@@ -101,17 +101,6 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .box1 {
     width: 12.5%;
     height: 100px; 
@@ -257,7 +246,6 @@ footer nav a {
 }
 
 header {
-    /* border: solid red; */
     display: flex;
     justify-content: space-between;
     margin: 20px 150px 20px;
@@ -265,22 +253,20 @@ header {
 }
 
 header nav {
-    /* border: solid blue; */
     display: flex;
     align-items: flex-end;
 
 }
 
 header nav a {
-    /* border: solid yellow; */
-    margin: 0px 40px 0px;
+    margin: 0px 20px 0px;
     text-decoration: none;
     color: black;
     font-size: 14px;
+    padding: 8px 20px;
 }
 
 .home-header {
-    /* border: solid green; */
     display: block;
     margin: auto;
     padding: 25px 0px 25px;
@@ -288,11 +274,6 @@ header nav a {
 
 /* **********STYLES FOR ABOUT PAGE ONLY*********** */
 
-
-.about-page {
-    /* border: solid red; */
-
-}
 
 .about-intro {
     margin: 0px 15px 25px;
@@ -307,7 +288,6 @@ header nav a {
     border-bottom: 1px dashed black;
     margin: 10px 10px 45px;
     padding-bottom: 20px;
-    /* padding-top: 20px; */
 }
 
 .top-middle-boxes {
@@ -337,3 +317,75 @@ button {
     margin: 0px 15px 25px;
 
 }
+
+/* STRETCH GOAL: NAV LINK CSS ANIMATIONS */
+
+header nav a:hover {
+    animation: pulse 2s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      background-color: white;
+    }
+    100% {
+      background-color: crimson;
+      color: white;
+      border-radius: 10px;
+    }
+  }
+
+/* STRETCH GOAL: CREATE A CONTACT PAGE WITH A CONTACT FORM */
+
+.contact-header {
+    display: block;
+    margin: auto;
+    padding: 25px 0px 25px;
+    height: 200px;
+    width: 800px;
+}
+
+.contact-intro {
+    margin: 0px 15px 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px dashed black;
+}
+
+.contact-bottom-content {
+    margin: 0px 15px 25px;
+    padding-top: 25px;
+    border-top: 1px dashed black;
+
+}
+
+.contact-form {
+    margin: 0px 15px 25px;
+    padding-top: 25px;}
+
+.form-text {
+    width: 500px;
+    padding: 12px; 
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+  
+  .message-text {
+    width: 500px;
+    height: 100px;
+    padding: 12px; 
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+  
+  form {
+    width: 600px;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: lightgray;
+    padding: 20px;
+    margin: 25px auto 40px;
+  }
