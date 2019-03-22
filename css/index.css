@@ -237,7 +237,8 @@ p {
 }
 
 footer {
-    width: 100%;
+    width: 800px;
+    margin: auto;
     background: black;
 }
 
@@ -275,7 +276,7 @@ header nav a {
     margin: 0px 40px 0px;
     text-decoration: none;
     color: black;
-    /* font-size: 13px; */
+    font-size: 14px;
 }
 
 .home-header {
@@ -288,4 +289,51 @@ header nav a {
 /* **********STYLES FOR ABOUT PAGE ONLY*********** */
 
 
+.about-page {
+    /* border: solid red; */
 
+}
+
+.about-intro {
+    margin: 0px 15px 25px;
+}
+
+.about-middle-content {
+    border-top: 1px dashed black;
+    padding-top: 20px;
+}
+
+.info-box {
+    border-bottom: 1px dashed black;
+    margin: 10px 10px 45px;
+    padding-bottom: 20px;
+    /* padding-top: 20px; */
+}
+
+.top-middle-boxes {
+    display: flex;
+}
+
+.bottom-middle-boxes {
+    display: flex;
+}
+
+.about-middle-content img {
+    margin-bottom: 10px;
+}
+
+button {
+	background: white;
+	vertical-align: top;
+	margin-top: 20px;
+	padding: 8px 20px;
+	font-size: 16px;
+    border: 3px solid black;
+    border-radius: 13px;
+	cursor: pointer;
+}
+
+.about-bottom-content {
+    margin: 0px 15px 25px;
+
+}
